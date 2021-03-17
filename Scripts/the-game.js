@@ -70,18 +70,6 @@ var left = false;
 
 var hasLeftStart;
 
-// var coinSound = new Audio(addPathRoot('/Sounds/soundCoin.mp3'));
-// var dyingSound = new Audio(addPathRoot('/Sounds/soundDying.mp3'));
-// var soundtrack = new Audio(addPathRoot('/Sounds/soundtrack2.mp3'));
-// var ballHit = new Audio(addPathRoot('/Sounds/soundHitByBall.wav'));
-// var gameBeginSound = new Audio(addPathRoot('/Sounds/soundComing.wav'));
-
-// var coinSound = new Audio('../Sounds/soundCoin.mp3');
-// var dyingSound = new Audio('../Sounds/soundDying.mp3');
-// var soundtrack = new Audio('../Sounds/soundtrack2.mp3');
-// var ballHit = new Audio('../Sounds/soundHitByBall.wav');
-// var gameBeginSound = new Audio('../Sounds/soundComing.wav');
-
 var coinSound = document.getElementById("coinSound");
 var dyingSound = document.getElementById("dyingSound");
 var soundtrack = document.getElementById("soundtrack");
