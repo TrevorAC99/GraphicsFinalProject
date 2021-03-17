@@ -34,6 +34,28 @@
     </style>
 </head>
 
+<audio id="coinSound">
+    <source src="./Sounds/soundCoin.mp3">
+</audio>
+<audio id="dyingSound">
+    <source src="./Sounds/soundDying.mp3">
+</audio>
+<audio id="soundtrack">
+    <source src="./Sounds/soundtrack2.mp3">
+</audio>
+<audio id="ballHit">
+    <source src="./Sounds/soundHitByBall.wav">
+</audio>
+<audio id="gameBeginSound">
+    <source src="./Sounds/soundComing.wav">
+</audio>
+<audio id="seeSound">
+    <source src="./Sounds/soundSeeing.mp3">
+</audio>
+<audio id="bounceSound">
+    <source src="./Sounds/soundWallBounce.wav">
+</audio>
+
 <script id="vertex-shader" type="x-shader/x-vertex">
 
 precision highp float;
@@ -152,7 +174,17 @@ void main()
 <script type="text/javascript" src="./Common/initShaders.js"></script>
 <script type="text/javascript" src="./Common/MV.js"></script>
 <script type="text/javascript" src="./Common/webgl-debug.js"></script>
+
 <script type="text/javascript" src="./Scripts/jquery.js"></script>
+
+<script>
+    window.pathRoot = "/GraphicsFinalProject"
+    function addPathRoot(path) {
+        if (window.location.href.includes("localhost"))
+        return window.pathRoot + path;
+    }
+</script>
+
 <script type="text/javascript" src="./Scripts/Ghost.js"></script>
 <script type="text/javascript" src="./Scripts/Retro-Pac-Man-Pacman.js"></script>
 <script type="text/javascript" src="./Scripts/Mario_Coin.js"></script>

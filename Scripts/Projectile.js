@@ -17,7 +17,7 @@ function Projectile(program, x, y, z, degrees, bounding_cir_rad)  {
     this.iBuffer = null;
     this.vPosition = null;
     this.vNormal = null;
-    this.bounceSound = new Audio('../Sounds/soundWallBounce.wav');
+    this.bounceSound = document.getElementById('bounceSound');
 };
 
 Projectile.prototype = Object.create(GameObject.prototype);

@@ -18,7 +18,7 @@ function Villain(program, x, y, z, degrees, bounding_cir_rad, color, movementTyp
     this.color = color;
     this.movementType = movementType;
     this.isMoving = false;
-    this.seeSound = new Audio('../Sounds/soundSeeing.mp3');
+    this.seeSound = document.getElementById('seeSound');
 };
 
 Villain.prototype = Object.create(GameObject.prototype);
