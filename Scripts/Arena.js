@@ -52,7 +52,7 @@ function Arena() {
 
 		var image1 = new Image();
 		image1.crossOrigin = "anonymous";
-		image1.src = "../Images/floor.png";
+		image1.src = "./Images/floor.png";
 		image1.onload = function () {
 			var texture1 = gl.createTexture();
 			gl.activeTexture(gl.TEXTURE1);
@@ -68,7 +68,7 @@ function Arena() {
 
 		var image3 = new Image();
 		image3.crossOrigin = "anonymous";
-		image3.src = "../Images/summersYouDied.png";
+		image3.src = "./Images/summersYouDied.png";
 		image3.onload = function () {
 			var texture3 = gl.createTexture();
 			gl.activeTexture(gl.TEXTURE3);

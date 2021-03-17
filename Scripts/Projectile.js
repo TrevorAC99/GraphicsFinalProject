@@ -41,7 +41,7 @@ Projectile.prototype.init = function() {
 
     var image4 = new Image();
     image4.crossOrigin = "anonymous";
-    image4.src = "../Images/glowstone.png";
+    image4.src = "./Images/glowstone.png";
     image4.onload = function() { 
         var texture4 = gl.createTexture();
         gl.activeTexture( gl.TEXTURE4);

@@ -91,7 +91,7 @@ Wall.prototype.init = function() {
 	// Texture 2
     var image2 = new Image();
     image2.crossOrigin = "anonymous";
-    image2.src = "../Images/brick-wall.png";
+    image2.src = "./Images/brick-wall.png";
     image2.onload = function() { 
 	var texture2 = gl.createTexture();
 	gl.activeTexture( gl.TEXTURE2);

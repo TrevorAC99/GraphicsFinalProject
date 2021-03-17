@@ -42,7 +42,7 @@ ThingSeeking.prototype.init = function() {
 
     var image0 = new Image();
     image0.crossOrigin = "anonymous";
-    image0.src = "../Images/newtest.png";
+    image0.src = "./Images/newtest.png";
     image0.onload = function() { 
         var texture0 = gl.createTexture();
         gl.activeTexture( gl.TEXTURE0);
